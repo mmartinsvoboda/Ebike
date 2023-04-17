@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wheelSizes>
+    <wheelSize>
+        <inches>17</inches>
+        <meters>0.4318</meters>
+    </wheelSize>
+    <wheelSize>
+        <inches>18</inches>
+        <meters>0.4572</meters>
+    </wheelSize>
+    <wheelSize>
+        <inches>19</inches>
+        <meters>0.4826</meters>
+    </wheelSize>
+    <wheelSize>
+        <inches>20</inches>
+        <meters>0.5080</meters>
+    </wheelSize>
+    <wheelSize>
+        <inches>21</inches>
+        <meters>0.5334</meters>
+    </wheelSize>
+</wheelSizes>

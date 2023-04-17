@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bikes>
+    <bike
+        name="Yamaha YZF-R1"
+        gearRatio="0.0637"
+        maxRpm="5500" />
+    <bike
+        name="Honda CBR1000RR"
+        gearRatio="0.06"
+        maxRpm="5000" />
+    <bike
+        name="Kawasaki Ninja ZX-10R"
+        gearRatio="0.07"
+        maxRpm="4500" />
+    <bike
+        name="Suzuki GSX-R1000"
+        gearRatio="0.05"
+        maxRpm="4200" />
+    <bike
+        name="BMW S1000RR"
+        gearRatio="0.081"
+        maxRpm="5200" />
+    <bike
+        name="Ducati Panigale V4"
+        gearRatio="0.04"
+        maxRpm="5250" />
+    <bike
+        name="Aprilia RSV4"
+        gearRatio="0.0"
+        maxRpm="5200" />
+    <bike
+        name="KTM RC8 R"
+        gearRatio="0.08"
+        maxRpm="4500" />
+    <bike
+        name="MV Agusta F4 RR"
+        gearRatio="0.07"
+        maxRpm="6000" />
+    <bike
+        name="Triumph Daytona 675"
+        gearRatio="0.09"
+        maxRpm="5500" />
+</bikes>

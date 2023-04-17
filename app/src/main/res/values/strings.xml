@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ebike</string>
+    <string name="select_a_bike">Select a bike:</string>
+    <string name="select_a_bike_variant">Select a bike</string>
+    <string name="select_a_wheel_size">Select a wheel size:</string>
+    <string name="select_a_wheel_size_variant">Select a wheel size</string>
+    <string name="enter_current_rpm">Enter current RPM:</string>
+    <string name="rpm">RPM</string>
+    <string name="please_select_a_bike_wheel_size_and_enter_rpm_to_calculate_speed">Please select a bike, wheel size, and enter RPM to calculate speed.</string>
+</resources>
