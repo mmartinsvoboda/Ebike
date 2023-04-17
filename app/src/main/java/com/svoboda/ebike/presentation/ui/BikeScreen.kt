@@ -34,13 +34,12 @@ import com.svoboda.ebike.presentation.viewmodel.BikeViewModel
 fun BikeScreen(viewModel: BikeViewModel) {
     val bikes = viewModel.bikes.collectAsState(emptyList())
     val wheelSizes = viewModel.wheelSizes.collectAsState(emptyList())
-    val speed = viewModel.speed.collectAsState(null)
 
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(16.dp),
-        contentPadding = PaddingValues(16.dp)
+        contentPadding = PaddingValues(32.dp)
     ) {
         // Bike selection
         item {
@@ -78,6 +77,7 @@ fun BikeScreen(viewModel: BikeViewModel) {
 
         // Calculated speed
         item {
+            val speed = viewModel.speed.collectAsState(null)
             CalculatedSpeed(speed.value)
         }
     }
@@ -110,6 +110,11 @@ private fun BikeDropdown(bikes: List<Bike>, selectedBike: Bike?, onBikeSelected:
         modifier = Modifier.fillMaxWidth()
     ) {
         Text(text = selectedBike?.name ?: stringResource(R.string.select_a_bike_variant))
+    }
+
+    if (selectedBike != null) {
+        Text(text = "Gear ratio: ${selectedBike.gearRatio}", modifier = Modifier.fillMaxWidth())
+        Text(text = "Max RPM: ${selectedBike.maxRpm}", modifier = Modifier.fillMaxWidth())
     }
 }
 
